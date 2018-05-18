@@ -1,0 +1,39 @@
+body, html {
+	height : 100%;
+}
+body {
+	background-image: url("images/daniel-josef-540635-unsplash.jpg");
+	height: 100% ;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display : flex ;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+h1, .slogan {
+	color : white ;
+	font-size : 4rem;
+	font-family : 'Montserrat', sans-serif ;
+	text-align: center;
+}
+.slogan {
+	font-size: 2em ;
+}
+div.clear {
+	text-align: center ;
+}
+.btn-outline-info {
+	background-color: #89002c ;
+	border-color: #89002c;
+	color : white ;
+}
+.btn-outline-info:hover {
+	background-color: #06142c ;
+	border-color: #06142c;
+	color : #89002c ;
+	transition: transform ease-in-out 0.3s;
+	transform: scale(1.3) ;
+}
